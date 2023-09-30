@@ -90,5 +90,5 @@ const initializeApp = createAppAsyncThunk<
 });
 
 export const authReducer = slice.reducer;
-export const authActions = slice.actions;
+// export const authActions = slice.actions;
 export const authThunks = { login, logout, initializeApp };
